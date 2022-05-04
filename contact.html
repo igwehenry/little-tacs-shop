@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="contact" content="Contact Us">
+        <meta name="description" content="You can contact our online service agent everytime in a week">
+        <title>Contact Us</title>
+        <link rel="Icon" href="img/logo.jpg" type="image/x-icon">
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/home.html">Home</a>
+                </li>
+                <li>
+                    <a href="/home.html">About LTS</a>
+                </li>
+                <li>
+                    <a href="/home.html">Our Menu</a>
+                </li>
+                <li>
+                    <a href="/working.html">Store Hours</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+        <img src="img/tiny-tacos.jpg" alt="Tiny Tacos" title="Little Taco Shop Tacos" width="300" height="300" loading="lazy">
+        <figcaption>
+            Little Taco Shop Tacos
+        </figcaption>
+    </figure>
+
+    <h2>Our Contact Form</h2>
+    
+    <form action="https://httpbin.org/get" method="get">
+    <p>
+        <fieldset>
+            <legend> Send Us A Message</legend>
+        
+        <label for="firstName">First Name:&nbsp;&nbsp;&nbsp;&nbsp;</label> <input type="text" name="firstName" id="firstName" placeholder="Joe" autocomplete="on" required>
+        
+        <p>
+            <label for="lastName">Last Name:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Smith" required autocomplete="on">
+        </p>
+        
+        <p>
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone" placeholder="+234*** *** ****" autocomplete="on" required>
+        </p>
+        <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="email" id="email" placeholder="Joesmith@gmail.com" autocomplete="on" required>
+        </fieldset>
+
+        <fieldset>
+            <legend> Is Taco Your Favorite Food?</legend>
+        <input type="radio" name="food" id="sauce" value="food">
+        <label for="sauce">Yes</label>
+        
+        <p>
+        <input type="radio" name="food" id="drink" value="food">
+        <label for="drink">No</label>
+        </p>
+
+        <p>
+        <input type="radio" name="food" id="rice" value="food">
+        <label for="rice">Not Really</label>
+        </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>What's Your Favorite Combination?</legend>
+            <input type="checkbox" name="food" id="tacos" value="food">
+            <label for="tacos"> Tacos Only</label>
+
+            <p>
+            <input type="checkbox" name="food" id="CocaCola" value="food">
+            <label for="CocaCola">Tacos with CocaCola</label>
+            </p>
+            
+            <input type="checkbox" name="food" id="strayberry" value="food">
+            <label for="strayberry">Tacos with strayberry</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>How Long Have You Taken Tacos?</legend>
+            <input type="number" name="decade" id="decade" min="1" max="100" placeholder="2">
+            <label for="decade">year(s)</label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Your Message:</legend>
+            <label for="message"></label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your messgae here!"></textarea>
+        </fieldset>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+
+        <h2>Our Location</h2>
+        <p>
+        <address>120 Maryland New Era, <br> off timber, patex cresent, <br> Enugu State Nigeria.</address>
+        
+    
+        <p> <i>Phone:  </i> <a href="+2348169433973">+238169433973</a> 
+        </p>
+    </form>
+
+        <p>
+        <a href="#">Back to Top</a>
+        </p>
+        
+        Copyright &copy;<a href="/home.html">The Little Taco Shop</a>
+    </body>
+
+
+</html>
